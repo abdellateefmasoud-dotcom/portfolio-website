@@ -1,0 +1,43 @@
+.study-section {
+  padding: 40px 20px;
+}
+
+.study-section h2 {
+  text-align: center;
+  color: #1e40af;
+  margin: 40px 0 20px 0;
+  font-size: 2rem;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.tip-card {
+  background: #dbeafe;
+  border-left: 6px solid #2563eb;
+  border-radius: 15px;
+  padding: 25px 20px;
+  max-width: 300px;
+  transition: 0.3s;
+}
+
+.tip-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 25px rgba(0,0,0,0.15);
+}
+
+.tip-card h3 {
+  color: #1e40af;
+  margin-bottom: 12px;
+}
+
+.tip-card p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #1f2937;
+}

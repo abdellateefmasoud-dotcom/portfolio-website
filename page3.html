@@ -1,0 +1,201 @@
+<section class="study-section">
+
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Study Tips</title>
+  <link rel="stylesheet" href="page3.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f7ff;
+      color: #1f2937;
+    }
+
+    /* Header */
+    header {
+      text-align: center;
+      padding: 40px 20px;
+      background: #1e40af;
+      color: white;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+
+    /* Nav */
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      background: #1e3a8a;
+      padding: 15px 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 8px 20px;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      background: #facc15;
+      color: #1e3a8a;
+      transform: scale(1.05);
+    }
+
+    /* Study Section */
+    .study-section {
+      padding: 40px 20px;
+    }
+
+    .study-section h2 {
+      text-align: center;
+      color: #1e40af;
+      margin: 40px 0 20px 0;
+      font-size: 2rem;
+    }
+
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      margin-bottom: 40px;
+    }
+
+    .tip-card {
+      background: #dbeafe;
+      border-left: 6px solid #2563eb;
+      border-radius: 15px;
+      padding: 25px 20px;
+      max-width: 300px;
+      transition: 0.3s;
+    }
+
+    .tip-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 25px rgba(0,0,0,0.15);
+    }
+
+    .tip-card h3 {
+      color: #1e40af;
+      margin-bottom: 12px;
+    }
+
+    .tip-card p {
+      font-size: 16px;
+      line-height: 1.7;
+      color: #1f2937;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 25px 0;
+      background: #1e40af;
+      color: white;
+      font-size: 14px;
+      opacity: 0.9;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1 class="page-title">Study Tips & Guides</h1>
+    <p>Learn how to study efficiently and master Networking & Cybersecurity</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="Who-I-Am.html">Home</a>
+    <a href="projects.html">Networking Topics</a>
+    <a href="page3.html">Study Tips</a>
+    <a href="Contact.html" class="contact-btn">
+      Contact Me
+    </a>
+  </nav>
+
+  <!-- Main Content -->
+  <section class="study-section">
+
+    <!-- Networking Study Tips -->
+    <h2>Networking Study Tips</h2>
+    <div class="cards">
+      <div class="tip-card">
+        <h3>VLANs</h3>
+        <p>Learn how VLANs divide a single network into multiple logical networks for better organization and security.</p>
+      </div>
+      <div class="tip-card">
+        <h3>ACLs</h3>
+        <p>Understand Access Control Lists and how to apply rules to routers and switches to allow or deny traffic.</p>
+      </div>
+      <div class="tip-card">
+        <h3>Routing</h3>
+        <p>Study static and dynamic routing protocols like OSPF and EIGRP. Practice reading routing tables and understanding path selection.</p>
+      </div>
+      <div class="tip-card">
+        <h3>VPN</h3>
+        <p>Learn how Virtual Private Networks secure connections remotely. Try setting up VPN lab environments for practice.</p>
+      </div>
+    </div>
+
+    <!-- Cybersecurity Study Tips -->
+    <h2>Cybersecurity Study Tips</h2>
+    <div class="cards">
+      <div class="tip-card">
+        <h3>Fundamentals</h3>
+        <p>Learn about confidentiality, integrity, and availability (CIA). Understand threats like malware, phishing, and social engineering.</p>
+      </div>
+      <div class="tip-card">
+        <h3>Labs & Practice</h3>
+        <p>Set up virtual labs using VMware or VirtualBox. Practice configuring firewalls, monitoring traffic, and testing vulnerabilities.</p>
+      </div>
+      <div class="tip-card">
+        <h3>Tools & Resources</h3>
+        <p>Use tools like Wireshark, Nmap, and Cisco Packet Tracer. Follow courses and tutorials to understand real-world applications.</p>
+      </div>
+    </div>
+
+    <!-- General Study Techniques -->
+    <h2>General Study Techniques</h2>
+    <div class="cards">
+      <div class="tip-card">
+        <h3>Active Learning</h3>
+        <p>Practice by doing labs, quizzes, and explaining concepts to someone else.</p>
+      </div>
+      <div class="tip-card">
+        <h3>Review & Repeat</h3>
+        <p>Regularly review previous topics and make small notes to strengthen long-term memory.</p>
+      </div>
+      <div class="tip-card">
+        <h3>Use Multiple Resources</h3>
+        <p>Combine books, videos, and online labs. Diversifying sources helps you understand better.</p>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>Abdellateef © All rights reserved</p>
+  </footer>
+
+</body>
+</html>
