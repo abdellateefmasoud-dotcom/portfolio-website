@@ -63,3 +63,22 @@ footer {
   background: #1e3a8a;
   color: white;
 }
+.cv-download{
+text-align:center;
+margin:25px 0;
+}
+
+.cv-btn{
+display:inline-block;
+background:linear-gradient(135deg,#2563eb,#1d4ed8);
+color:white;
+padding:12px 28px;
+border-radius:25px;
+text-decoration:none;
+font-weight:bold;
+transition:.3s;
+}
+
+.cv-btn:hover{
+transform:scale(1.05);
+}
