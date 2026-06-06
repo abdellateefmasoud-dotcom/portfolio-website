@@ -1,245 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Networking & Cybersecurity</title>
-  <link rel="stylesheet" href="Projects.css">
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #f5f7ff;
-      color: #1f2937;
-      margin: 0;
-      padding: 0;
-    }
-    header {
-      text-align: center;
-      padding: 40px 20px;
-      background: #1e40af;
-      color: white;
-    }
-    nav {
-      display: flex;
-      justify-content: center;
-      gap: 25px;
-      padding: 15px;
-      background: #2563eb;
-    }
-    nav a {
-      color: white;
-      text-decoration: none;
-      font-weight: bold;
-      transition: 0.3s;
-    }
-    nav a:hover {
-      color: #facc15;
-    }
-    .topic {
-      background: linear-gradient(135deg, #f0f4ff, #dbeafe);
-      border-left: 6px solid #2563eb;
-      margin: 25px auto;
-      padding: 20px;
-      border-radius: 12px;
-      max-width: 900px;
-      transition: 0.3s;
-    }
-    .topic:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 10px 20px rgba(0,0,0,0.15);
-    }
-    .topic h3 {
-      color: #1e3a8a;
-      margin-bottom: 10px;
-    }
-    .topic p, .topic ol {
-      line-height: 1.8;
-      font-size: 16px;
-    }
-    footer {
-      text-align: center;
-      padding: 20px;
-      background: #1e3a8a;
-      color: white;
-    }
-    #contact-links {
-      display: flex;
-      gap: 20px;
-      justify-content: center;
-      margin: 20px 0;
-    }
-    #contact-links a {
-      text-decoration: none;
-      color: #1e3a8a;
-      font-weight: bold;
-      transition: 0.3s;
-    }
-    #contact-links a:hover {
-      color: #facc15;
-      transform: scale(1.1);
-    }
-  </style>
+<meta charset="UTF-8">
+<title>Projects</title>
+<link rel="stylesheet" href="Who-I-Am.css">
 </head>
+
 <body>
 
-  <header>
-    <h1 class="page-title">Networking & Cybersecurity Topics</h1>
-    <p>A comprehensive guide with practical examples and explanations</p>
-  </header>
-
-  <<nav>
-<a href="index.html">Home</a>
-<a href="about.html">About</a>
-<a href="Hobbies.html">Hobbies</a>
-<a href="Projects.html">Projects</a>
-<a href="contact.html">Contact</a>
+<nav>
+  <a href="index.html">Home</a>
+  <a href="about.html">About Me</a>
+  <a href="skils.html">Skills</a>
+  <a href="certificates.html">Certificates</a>
+  <a href="Hobbies.html">Hobbies</a>
+  <a href="Projects.html">Projects</a>
+  <a href="career.html">career</a>
+  <a href="contact.html">Contact</a>
 </nav>
-  <div class="cv-download">
-<a href="CV.pdf" download class="cv-btn">
-Download My CV
-</a>
+
+<header class="page-header">
+  <h1>My Projects</h1>
+  <p>Real hands-on networking & IT practical work</p>
+</header>
+
+<section class="project-container">
+
+  <div class="project-card">
+  <img src="ccna1.jpeg" alt="CCNA Final Project">
+
+  <h2>CCNA FINAL PROJECT</h2>
+
+  <p>
+    Designed and implemented a complete enterprise network using Cisco Packet Tracer. Configured IP addressing, VLANs, DHCP, routing, and network connectivity between multiple departments.
+  </p>
+
+  <p><strong>Tools:</strong> Cisco Packet Tracer, VLANs, DHCP, Routing</p>
 </div>
-  <section class="topic">
-    <h3>VPN – Virtual Private Network</h3>
-    <p>
-      VPN allows secure access to the Internet or company networks.  
-      It encrypts your data, protecting it from spies.  
-      Example: Remote work access to company servers.
-    </p>
-  </section>
 
-  <section class="topic">
-    <h3>VLAN – Virtual LAN</h3>
-    <p>
-      VLAN divides a single network into multiple logical networks.  
-      Example: Employees, management, and guests have separate networks even on the same switch.
-    </p>
-  </section>
+<div class="project-card">
+  <img src="ccnp1.jpeg" alt="CCNP Final Project">
 
-  <section class="topic">
-    <h3>ACL – Access Control List</h3>
-    <p>
-      ACL defines rules on routers or switches: who can access and who is blocked.  
-      Example: Allow a specific network to reach the server, block others.
-    </p>
-  </section>
+  <h2>CCNP FINAL PROJECT</h2>
 
-  <section class="topic">
-    <h3>Routing</h3>
-    <p>
-      Routing determines the path data takes from one network to another.  
-      Routers select the best path using the Routing Table.  
-      Types: Static or Dynamic (OSPF, EIGRP).
-    </p>
-  </section>
+  <p>
+    Built an advanced enterprise network topology with dynamic routing protocols and troubleshooting scenarios to simulate real-world networking environments.
+  </p>
 
-  <section class="topic">
-    <h3>SD-WAN – Software-Defined WAN</h3>
-    <p>
-      SD-WAN manages wide area networks using software for flexibility, security, and cost efficiency.  
-      Example: Connecting multiple branches of a company efficiently.
-    </p>
-  </section>
+  <p><strong>Tools:</strong> Cisco Packet Tracer, OSPF, EIGRP, Troubleshooting</p>
+</div>
 
-  <section class="topic">
-    <h3>Subnetting</h3>
-    <p>
-      Subnetting divides a network into smaller sub-networks.  
-      Example: 192.168.1.0/24 can be split into 192.168.1.0/26, 192.168.1.64/26…  
-      Helps with organization, security, and efficient IP usage.
-    </p>
-  </section>
+<div class="project-card">
+  <img src="ad.jpeg" alt="Active Directory Project">
 
-  <section class="topic">
-    <h3>Firewalls</h3>
-    <p>
-      Firewalls control incoming and outgoing network traffic based on security rules.  
-      Example: Block unauthorized access while allowing trusted traffic.
-    </p>
-  </section>
+  <h2>Active Directory (VMware)</h2>
 
-  <section class="topic">
-    <h3>NAT – Network Address Translation</h3>
-    <p>
-      NAT translates private IP addresses to public IP addresses for Internet access.  
-      Example: Multiple devices in a home share one public IP.
-    </p>
-  </section>
+  <p>
+    Configured Windows Server Active Directory in VMware. Created users, groups, organizational units, and managed domain services in a virtual environment.
+  </p>
 
-  <!-- Cybersecurity Topics -->
-  <section class="topic">
-    <h3>Encryption</h3>
-    <p>
-      Encryption secures data by converting it into unreadable format.  
-      Example: HTTPS websites use SSL/TLS encryption to protect traffic.
-    </p>
-  </section>
-
-  <section class="topic">
-    <h3>Antivirus / Anti-malware</h3>
-    <p>
-      Software that protects computers from viruses, malware, and ransomware.  
-      Example: Windows Defender, Avast, or Bitdefender.
-    </p>
-  </section>
-
-  <section class="topic">
-    <h3>IDS / IPS – Intrusion Detection / Prevention System</h3>
-    <p>
-      IDS monitors network traffic for suspicious activity; IPS blocks threats automatically.  
-      Example: Detect and prevent unauthorized access attempts.
-    </p>
-  </section>
-
-  <section class="topic">
-    <h3>Phishing</h3>
-    <p>
-      Phishing is a cyber attack to steal sensitive info via fake emails or websites.  
-      Protect yourself by checking links and verifying senders.
-    </p>
-  </section>
-
-  <section class="topic">
-    <h3>Secure Passwords</h3>
-    <p>
-      Strong passwords prevent unauthorized access.  
-      Example: Use a mix of letters, numbers, symbols, and avoid dictionary words.
-    </p>
-  </section>
-
-  <section class="topic">
-    <h3>Backups</h3>
-    <p>
-      Regular backups protect against data loss.  
-      Example: Cloud backups or external drives.
-    </p>
-  </section>
-
-  <section class="topic">
-    <h3>Two-Factor Authentication (2FA)</h3>
-    <p>
-      Adds a second layer of security by requiring a code in addition to a password.  
-      Example: SMS codes, Authenticator apps.
-    </p>
-  </section>
-
-  <!-- OSI Model -->
-  <section class="topic">
-    <h3>OSI Model – 7 Layers</h3>
-    <ol>
-      <li><strong>Physical (Layer 1):</strong> Cables, switches, network devices.</li>
-      <li><strong>Data Link (Layer 2):</strong> MAC addresses, frame delivery, switches.</li>
-      <li><strong>Network (Layer 3):</strong> IP addresses, routing, routers.</li>
-      <li><strong>Transport (Layer 4):</strong> TCP/UDP, reliable data transfer.</li>
-      <li><strong>Session (Layer 5):</strong> Establish/terminate sessions between applications.</li>
-      <li><strong>Presentation (Layer 6):</strong> Data formatting, encryption, compression.</li>
-      <li><strong>Application (Layer 7):</strong> Network services for applications: HTTP, FTP, Email.</li>
-    </ol>
-  </section>
-
-  <footer>
-    <p>Abdellateef © All rights reserved</p>
-  </footer>
+  <p><strong>Tools:</strong> VMware, Windows Server, Active Directory</p>
+</div>
+</section>
 
 </body>
 </html>
