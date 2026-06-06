@@ -720,4 +720,42 @@ section {
   transform:scale(1.05);
   box-shadow:0 12px 25px rgba(0,0,0,0.25);
 }
-\
+@media (max-width: 768px) {
+
+  nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hero,
+  .about-container,
+  .contact-split {
+    flex-direction: column !important;
+    text-align: center;
+  }
+
+  .cards,
+  .cert-container,
+  .project-container {
+    grid-template-columns: 1fr !important;
+  }
+
+  .hero-image img,
+  .about-image img {
+    width: 180px !important;
+    height: auto !important;
+  }
+
+  section {
+    margin: 20px 10px;
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+}
