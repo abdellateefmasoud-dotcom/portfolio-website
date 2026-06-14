@@ -9,7 +9,6 @@ body{
   background:#f5f7ff;
 }
 
-/* HEADER */
 header{
   text-align:center;
   padding:20px;
@@ -17,7 +16,6 @@ header{
   color:white;
 }
 
-/* NAV */
 nav{
   display:flex;
   justify-content:center;
@@ -32,7 +30,6 @@ nav a{
   font-weight:bold;
 }
 
-/* MAIN LAYOUT */
 .contact-split{
   display:flex;
   gap:20px;
@@ -41,7 +38,6 @@ nav a{
   padding:20px;
 }
 
-/* FORM */
 .form-box{
   flex:1;
   background:white;

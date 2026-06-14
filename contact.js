@@ -10,13 +10,11 @@ document.getElementById("chatArea").appendChild(div);
 scrollChat();
 }
 
-// ===== SCROLL =====
 function scrollChat() {
 let chat = document.getElementById("chatArea");
 chat.scrollTop = chat.scrollHeight;
 }
 
-// ===== SEND MESSAGE =====
 function sendMessage() {
 
 let input = document.getElementById("userInput");
@@ -42,7 +40,6 @@ speak(reply);
 }, 900);
 }
 
-// ===== SHOW TYPING =====
 function showTyping(state) {
 
 let typing = document.getElementById("typing");
@@ -52,7 +49,6 @@ if (!typing) return;
 typing.classList.toggle("hidden", !state);
 }
 
-// ===== AI BRAIN =====
 function bot(text) {
     text = text.toLowerCase();
 
